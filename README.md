@@ -49,10 +49,45 @@ This repository includes organized examples and experiments demonstrating the fo
 
 You can install the required dependencies via:
 
+
 ```bash
 pip install opencv-python numpy
+```
 
-----
+##  🚀 Running the Code
 
-## 🚀 Running the Code
+### Clone this repository:
+ ```bash
+git clone https://github.com/rusiru-erandaka/Opencv_basics.git
+cd Opencv_basics
+```
+
+### Open any script in your preferred IDE or run directly using:
+
+```bash
+python script_name.py
+```
+
+## 🧠 Key OpenCV Concepts (Crash Summary)
+
+### 📘 BGR vs RGB
+
+OpenCV loads images in BGR (Blue-Green-Red) format, not RGB. Be cautious when displaying or converting images.
+
+### 🔄 Color Conversions
+
+```bash
+gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+```
+
+### 📏 Resize, Crop
+
+```bash
+resized = cv2.resize(img, (width, height))
+cropped = img[y1:y2, x1:x2]
+```
+
+### 🧱 Drawing Shapes
+
+
 
