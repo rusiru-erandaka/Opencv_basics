@@ -52,3 +52,7 @@ You can install the required dependencies via:
 ```bash
 pip install opencv-python numpy
 
+----
+
+## 🚀 Running the Code
+
