@@ -95,7 +95,7 @@ cv2.rectangle(img, (x1, y1), (x2, y2), color=(255, 0, 0), thickness=2)
 
 ## 🙌 Contributions
 
-This repository is for self-learning, but feel free to fork and extend it with your own experiments! Good 
+This repository is for self-learning, but feel free to fork and extend it with your own experiments! Good luck
 
 
 
